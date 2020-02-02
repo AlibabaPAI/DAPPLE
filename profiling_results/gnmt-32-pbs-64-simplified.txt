@@ -1,0 +1,191 @@
+node1 -- Input0 -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node4 -- Embedding(36560, 1024, padding_idx=0) -- forward_compute_time=0.087, backward_compute_time=11.587, activation_size=9961472.0, parameter_size=149749760.000
+node5 -- EmuBidirLSTM(  (bidir): LSTM(1024, 1024, bidirectional=True)  (layer1): LSTM(1024, 1024)  (layer2): LSTM(1024, 1024)) -- forward_compute_time=7.665, backward_compute_time=0.019, activation_size=19922944.0, parameter_size=67174400.000
+node2 -- Input1 -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node7 -- LSTM(2048, 1024) -- forward_compute_time=4.788, backward_compute_time=8.891, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=50364416.000
+node11 -- LSTM(1024, 1024) -- forward_compute_time=3.534, backward_compute_time=6.707, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node14 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node16 -- LSTM(1024, 1024) -- forward_compute_time=3.530, backward_compute_time=6.708, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node19 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node21 -- LSTM(1024, 1024) -- forward_compute_time=3.540, backward_compute_time=6.729, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node24 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node26 -- LSTM(1024, 1024) -- forward_compute_time=3.531, backward_compute_time=6.734, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node29 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node31 -- LSTM(1024, 1024) -- forward_compute_time=3.539, backward_compute_time=6.736, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node34 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node36 -- LSTM(1024, 1024) -- forward_compute_time=3.549, backward_compute_time=6.745, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node39 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node41 -- LSTM(1024, 1024) -- forward_compute_time=3.554, backward_compute_time=6.759, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node44 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node46 -- LSTM(1024, 1024) -- forward_compute_time=3.565, backward_compute_time=6.770, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node49 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node51 -- LSTM(1024, 1024) -- forward_compute_time=3.571, backward_compute_time=6.783, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node54 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node56 -- LSTM(1024, 1024) -- forward_compute_time=3.575, backward_compute_time=6.767, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node59 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node61 -- LSTM(1024, 1024) -- forward_compute_time=3.590, backward_compute_time=6.790, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node64 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node66 -- LSTM(1024, 1024) -- forward_compute_time=3.591, backward_compute_time=6.782, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node69 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node71 -- LSTM(1024, 1024) -- forward_compute_time=3.597, backward_compute_time=6.809, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node74 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node76 -- LSTM(1024, 1024) -- forward_compute_time=3.601, backward_compute_time=7.300, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node79 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node3 -- Input2 -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node81 -- Embedding(36560, 1024, padding_idx=0) -- forward_compute_time=0.074, backward_compute_time=0.398, activation_size=8388608.0, parameter_size=149749760.000
+node80 -- hidden -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node83 -- RecurrentAttention(  (rnn): LSTM(1024, 1024)  (attn): BahdanauAttention(    (linear_q): Linear(in_features=1024, out_features=1024, bias=False)    (linear_k): Linear(in_features=1024, out_features=1024, bias=False)    (dropout): Dropout(p=0)  )  (dropout): Dropout(p=0)) -- forward_compute_time=7.625, backward_compute_time=10.896, activation_size=[8388608.0; 262144.0; 262144.0; 8388608.0; 311296.0], parameter_size=41979904.000
+node91 -- LSTM(2048, 1024) -- forward_compute_time=4.819, backward_compute_time=8.779, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node97 -- LSTM(2048, 1024) -- forward_compute_time=4.815, backward_compute_time=8.777, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node100 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node104 -- LSTM(2048, 1024) -- forward_compute_time=4.823, backward_compute_time=8.789, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node107 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node111 -- LSTM(2048, 1024) -- forward_compute_time=4.849, backward_compute_time=8.785, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node114 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node118 -- LSTM(2048, 1024) -- forward_compute_time=4.829, backward_compute_time=8.776, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node121 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node125 -- LSTM(2048, 1024) -- forward_compute_time=4.829, backward_compute_time=8.785, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node128 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node132 -- LSTM(2048, 1024) -- forward_compute_time=4.820, backward_compute_time=8.797, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node135 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node139 -- LSTM(2048, 1024) -- forward_compute_time=4.826, backward_compute_time=8.770, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node142 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node146 -- LSTM(2048, 1024) -- forward_compute_time=4.839, backward_compute_time=8.778, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node149 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node153 -- LSTM(2048, 1024) -- forward_compute_time=4.829, backward_compute_time=8.794, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node156 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node160 -- LSTM(2048, 1024) -- forward_compute_time=4.846, backward_compute_time=8.773, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node163 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node167 -- LSTM(2048, 1024) -- forward_compute_time=4.831, backward_compute_time=8.775, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node170 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node174 -- LSTM(2048, 1024) -- forward_compute_time=4.855, backward_compute_time=8.764, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node177 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node181 -- LSTM(2048, 1024) -- forward_compute_time=4.870, backward_compute_time=8.791, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node184 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node188 -- LSTM(2048, 1024) -- forward_compute_time=4.830, backward_compute_time=31.889, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node191 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node192 -- Classifier(  (classifier): Linear(in_features=1024, out_features=36560, bias=True)) -- forward_compute_time=18.322, backward_compute_time=2.941, activation_size=299499520.0, parameter_size=149896000.000
+	node1 -- node4
+	node4 -- node5
+	node2 -- node5
+	node5 -- node7
+	node7 -- node11
+	node11 -- node14
+	node7 -- node14
+	node14 -- node16
+	node16 -- node19
+	node14 -- node19
+	node19 -- node21
+	node21 -- node24
+	node19 -- node24
+	node24 -- node26
+	node26 -- node29
+	node24 -- node29
+	node29 -- node31
+	node31 -- node34
+	node29 -- node34
+	node34 -- node36
+	node36 -- node39
+	node34 -- node39
+	node39 -- node41
+	node41 -- node44
+	node39 -- node44
+	node44 -- node46
+	node46 -- node49
+	node44 -- node49
+	node49 -- node51
+	node51 -- node54
+	node49 -- node54
+	node54 -- node56
+	node56 -- node59
+	node54 -- node59
+	node59 -- node61
+	node61 -- node64
+	node59 -- node64
+	node64 -- node66
+	node66 -- node69
+	node64 -- node69
+	node69 -- node71
+	node71 -- node74
+	node69 -- node74
+	node74 -- node76
+	node76 -- node79
+	node74 -- node79
+	node3 -- node81
+	node80 -- node83
+	node81 -- node83
+	node79 -- node83
+	node2 -- node83
+	node83 -- node91
+	node80 -- node91
+	node91 -- node97
+	node83 -- node97
+	node80 -- node97
+	node97 -- node100
+	node91 -- node100
+	node100 -- node104
+	node83 -- node104
+	node80 -- node104
+	node104 -- node107
+	node100 -- node107
+	node107 -- node111
+	node83 -- node111
+	node80 -- node111
+	node111 -- node114
+	node107 -- node114
+	node114 -- node118
+	node83 -- node118
+	node80 -- node118
+	node118 -- node121
+	node114 -- node121
+	node121 -- node125
+	node83 -- node125
+	node80 -- node125
+	node125 -- node128
+	node121 -- node128
+	node128 -- node132
+	node83 -- node132
+	node80 -- node132
+	node132 -- node135
+	node128 -- node135
+	node135 -- node139
+	node83 -- node139
+	node80 -- node139
+	node139 -- node142
+	node135 -- node142
+	node142 -- node146
+	node83 -- node146
+	node80 -- node146
+	node146 -- node149
+	node142 -- node149
+	node149 -- node153
+	node83 -- node153
+	node80 -- node153
+	node153 -- node156
+	node149 -- node156
+	node156 -- node160
+	node83 -- node160
+	node80 -- node160
+	node160 -- node163
+	node156 -- node163
+	node163 -- node167
+	node83 -- node167
+	node80 -- node167
+	node167 -- node170
+	node163 -- node170
+	node170 -- node174
+	node83 -- node174
+	node80 -- node174
+	node174 -- node177
+	node170 -- node177
+	node177 -- node181
+	node83 -- node181
+	node80 -- node181
+	node181 -- node184
+	node177 -- node184
+	node184 -- node188
+	node83 -- node188
+	node80 -- node188
+	node188 -- node191
+	node184 -- node191
+	node191 -- node192

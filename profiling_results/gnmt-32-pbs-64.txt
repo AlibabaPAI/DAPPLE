@@ -1,0 +1,442 @@
+node1 -- Input0 -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node4 -- Embedding(36560, 1024, padding_idx=0) -- forward_compute_time=0.087, backward_compute_time=11.587, activation_size=9961472.0, parameter_size=149749760.000
+node5 -- EmuBidirLSTM(  (bidir): LSTM(1024, 1024, bidirectional=True)  (layer1): LSTM(1024, 1024)  (layer2): LSTM(1024, 1024)) -- forward_compute_time=7.665, backward_compute_time=0.019, activation_size=19922944.0, parameter_size=67174400.000
+node2 -- Input1 -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node6 -- Dropout(p=0.2) -- forward_compute_time=0.099, backward_compute_time=0.212, activation_size=19922944.0, parameter_size=0.000
+node7 -- LSTM(2048, 1024) -- forward_compute_time=4.788, backward_compute_time=8.891, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=50364416.000
+node8 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node9 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node10 -- Dropout(p=0.2) -- forward_compute_time=0.069, backward_compute_time=0.126, activation_size=9961472.0, parameter_size=0.000
+node11 -- LSTM(1024, 1024) -- forward_compute_time=3.534, backward_compute_time=6.707, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node12 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node13 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node14 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node15 -- Dropout(p=0.2) -- forward_compute_time=0.065, backward_compute_time=0.126, activation_size=9961472.0, parameter_size=0.000
+node16 -- LSTM(1024, 1024) -- forward_compute_time=3.530, backward_compute_time=6.708, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node17 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node18 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node19 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node20 -- Dropout(p=0.2) -- forward_compute_time=0.065, backward_compute_time=0.126, activation_size=9961472.0, parameter_size=0.000
+node21 -- LSTM(1024, 1024) -- forward_compute_time=3.540, backward_compute_time=6.729, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node22 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node23 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node24 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node25 -- Dropout(p=0.2) -- forward_compute_time=0.064, backward_compute_time=0.126, activation_size=9961472.0, parameter_size=0.000
+node26 -- LSTM(1024, 1024) -- forward_compute_time=3.531, backward_compute_time=6.734, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node27 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node28 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node29 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node30 -- Dropout(p=0.2) -- forward_compute_time=0.064, backward_compute_time=0.126, activation_size=9961472.0, parameter_size=0.000
+node31 -- LSTM(1024, 1024) -- forward_compute_time=3.539, backward_compute_time=6.736, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node32 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node33 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node34 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node35 -- Dropout(p=0.2) -- forward_compute_time=0.064, backward_compute_time=0.125, activation_size=9961472.0, parameter_size=0.000
+node36 -- LSTM(1024, 1024) -- forward_compute_time=3.549, backward_compute_time=6.745, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node37 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node38 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node39 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node40 -- Dropout(p=0.2) -- forward_compute_time=0.064, backward_compute_time=0.126, activation_size=9961472.0, parameter_size=0.000
+node41 -- LSTM(1024, 1024) -- forward_compute_time=3.554, backward_compute_time=6.759, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node42 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node43 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node44 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node45 -- Dropout(p=0.2) -- forward_compute_time=0.064, backward_compute_time=0.126, activation_size=9961472.0, parameter_size=0.000
+node46 -- LSTM(1024, 1024) -- forward_compute_time=3.565, backward_compute_time=6.770, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node47 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node48 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node49 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node50 -- Dropout(p=0.2) -- forward_compute_time=0.078, backward_compute_time=0.126, activation_size=9961472.0, parameter_size=0.000
+node51 -- LSTM(1024, 1024) -- forward_compute_time=3.571, backward_compute_time=6.783, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node52 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node53 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node54 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node55 -- Dropout(p=0.2) -- forward_compute_time=0.064, backward_compute_time=0.125, activation_size=9961472.0, parameter_size=0.000
+node56 -- LSTM(1024, 1024) -- forward_compute_time=3.575, backward_compute_time=6.767, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node57 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node58 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node59 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node60 -- Dropout(p=0.2) -- forward_compute_time=0.076, backward_compute_time=0.125, activation_size=9961472.0, parameter_size=0.000
+node61 -- LSTM(1024, 1024) -- forward_compute_time=3.590, backward_compute_time=6.790, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node62 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node63 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node64 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node65 -- Dropout(p=0.2) -- forward_compute_time=0.076, backward_compute_time=0.126, activation_size=9961472.0, parameter_size=0.000
+node66 -- LSTM(1024, 1024) -- forward_compute_time=3.591, backward_compute_time=6.782, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node67 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node68 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node69 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node70 -- Dropout(p=0.2) -- forward_compute_time=0.065, backward_compute_time=0.125, activation_size=9961472.0, parameter_size=0.000
+node71 -- LSTM(1024, 1024) -- forward_compute_time=3.597, backward_compute_time=6.809, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node72 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node73 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node74 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node75 -- Dropout(p=0.2) -- forward_compute_time=0.0764, backward_compute_time=0.125, activation_size=9961472.0, parameter_size=0.000
+node76 -- LSTM(1024, 1024) -- forward_compute_time=3.601, backward_compute_time=7.300, activation_size=[9961472.0; 262144.0; 262144.0], parameter_size=33587200.000
+node77 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node78 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node79 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=9961472.0, parameter_size=0.000
+node3 -- Input2 -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node81 -- Embedding(36560, 1024, padding_idx=0) -- forward_compute_time=0.074, backward_compute_time=0.398, activation_size=8388608.0, parameter_size=149749760.000
+node80 -- hidden -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node82 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node83 -- RecurrentAttention(  (rnn): LSTM(1024, 1024)  (attn): BahdanauAttention(    (linear_q): Linear(in_features=1024, out_features=1024, bias=False)    (linear_k): Linear(in_features=1024, out_features=1024, bias=False)    (dropout): Dropout(p=0)  )  (dropout): Dropout(p=0)) -- forward_compute_time=7.625, backward_compute_time=10.896, activation_size=[8388608.0; 262144.0; 262144.0; 8388608.0; 311296.0], parameter_size=41979904.000
+node84 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node85 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node86 -- __getitem__(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node87 -- __getitem__(3) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node88 -- Dropout(p=0.2) -- forward_compute_time=0.061, backward_compute_time=0.187, activation_size=8388608.0, parameter_size=0.000
+node89 -- Concat(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node90 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node91 -- LSTM(2048, 1024) -- forward_compute_time=4.819, backward_compute_time=8.779, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node92 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node93 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node94 -- Dropout(p=0.2) -- forward_compute_time=0.068, backward_compute_time=0.188, activation_size=8388608.0, parameter_size=0.000
+node95 -- Concat(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node96 -- __getitem__(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node97 -- LSTM(2048, 1024) -- forward_compute_time=4.815, backward_compute_time=8.777, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node98 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node99 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node100 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node101 -- Dropout(p=0.2) -- forward_compute_time=0.075, backward_compute_time=0.188, activation_size=8388608.0, parameter_size=0.000
+node102 -- Concat(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node103 -- __getitem__(3) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node104 -- LSTM(2048, 1024) -- forward_compute_time=4.823, backward_compute_time=8.789, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node105 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node106 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node107 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node108 -- Dropout(p=0.2) -- forward_compute_time=0.063, backward_compute_time=0.188, activation_size=8388608.0, parameter_size=0.000
+node109 -- Concat(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node110 -- __getitem__(4) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node111 -- LSTM(2048, 1024) -- forward_compute_time=4.849, backward_compute_time=8.785, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node112 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node113 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node114 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node115 -- Dropout(p=0.2) -- forward_compute_time=0.063, backward_compute_time=0.188, activation_size=8388608.0, parameter_size=0.000
+node116 -- Concat(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node117 -- __getitem__(5) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node118 -- LSTM(2048, 1024) -- forward_compute_time=4.829, backward_compute_time=8.776, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node119 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node120 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node121 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node122 -- Dropout(p=0.2) -- forward_compute_time=0.075, backward_compute_time=0.188, activation_size=8388608.0, parameter_size=0.000
+node123 -- Concat(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node124 -- __getitem__(6) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node125 -- LSTM(2048, 1024) -- forward_compute_time=4.829, backward_compute_time=8.785, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node126 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node127 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node128 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node129 -- Dropout(p=0.2) -- forward_compute_time=0.063, backward_compute_time=0.189, activation_size=8388608.0, parameter_size=0.000
+node130 -- Concat(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node131 -- __getitem__(7) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node132 -- LSTM(2048, 1024) -- forward_compute_time=4.820, backward_compute_time=8.797, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node133 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node134 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node135 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node136 -- Dropout(p=0.2) -- forward_compute_time=0.075, backward_compute_time=0.188, activation_size=8388608.0, parameter_size=0.000
+node137 -- Concat(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node138 -- __getitem__(8) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node139 -- LSTM(2048, 1024) -- forward_compute_time=4.826, backward_compute_time=8.770, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node140 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node141 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node142 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node143 -- Dropout(p=0.2) -- forward_compute_time=0.075, backward_compute_time=0.188, activation_size=8388608.0, parameter_size=0.000
+node144 -- Concat(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node145 -- __getitem__(9) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node146 -- LSTM(2048, 1024) -- forward_compute_time=4.839, backward_compute_time=8.778, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node147 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node148 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node149 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node150 -- Dropout(p=0.2) -- forward_compute_time=0.063, backward_compute_time=0.188, activation_size=8388608.0, parameter_size=0.000
+node151 -- Concat(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node152 -- __getitem__(10) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node153 -- LSTM(2048, 1024) -- forward_compute_time=4.829, backward_compute_time=8.794, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node154 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node155 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node156 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node157 -- Dropout(p=0.2) -- forward_compute_time=0.075, backward_compute_time=0.188, activation_size=8388608.0, parameter_size=0.000
+node158 -- Concat(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node159 -- __getitem__(11) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node160 -- LSTM(2048, 1024) -- forward_compute_time=4.846, backward_compute_time=8.773, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node161 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node162 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node163 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node164 -- Dropout(p=0.2) -- forward_compute_time=0.064, backward_compute_time=0.188, activation_size=8388608.0, parameter_size=0.000
+node165 -- Concat(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node166 -- __getitem__(12) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node167 -- LSTM(2048, 1024) -- forward_compute_time=4.831, backward_compute_time=8.775, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node168 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node169 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node170 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node171 -- Dropout(p=0.2) -- forward_compute_time=0.063, backward_compute_time=0.188, activation_size=8388608.0, parameter_size=0.000
+node172 -- Concat(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node173 -- __getitem__(13) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node174 -- LSTM(2048, 1024) -- forward_compute_time=4.855, backward_compute_time=8.764, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node175 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node176 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node177 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node178 -- Dropout(p=0.2) -- forward_compute_time=0.075, backward_compute_time=0.187, activation_size=8388608.0, parameter_size=0.000
+node179 -- Concat(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node180 -- __getitem__(14) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node181 -- LSTM(2048, 1024) -- forward_compute_time=4.870, backward_compute_time=8.791, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node182 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node183 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node184 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node185 -- Dropout(p=0.2) -- forward_compute_time=0.063, backward_compute_time=0.172, activation_size=8388608.0, parameter_size=0.000
+node186 -- Concat(2) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node187 -- __getitem__(15) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=0.0, parameter_size=0.000
+node188 -- LSTM(2048, 1024) -- forward_compute_time=4.830, backward_compute_time=31.889, activation_size=[8388608.0; 262144.0; 262144.0], parameter_size=50364416.000
+node189 -- __getitem__(0) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node190 -- __getitem__(1) -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=262144.0, parameter_size=0.000
+node191 -- Add -- forward_compute_time=0.000, backward_compute_time=0.000, activation_size=8388608.0, parameter_size=0.000
+node192 -- Classifier(  (classifier): Linear(in_features=1024, out_features=36560, bias=True)) -- forward_compute_time=18.322, backward_compute_time=2.941, activation_size=299499520.0, parameter_size=149896000.000
+	node1 -- node4
+	node4 -- node5
+	node2 -- node5
+	node5 -- node6
+	node6 -- node7
+	node7 -- node8
+	node7 -- node9
+	node8 -- node10
+	node10 -- node11
+	node11 -- node12
+	node11 -- node13
+	node12 -- node14
+	node8 -- node14
+	node14 -- node15
+	node15 -- node16
+	node16 -- node17
+	node16 -- node18
+	node17 -- node19
+	node14 -- node19
+	node19 -- node20
+	node20 -- node21
+	node21 -- node22
+	node21 -- node23
+	node22 -- node24
+	node19 -- node24
+	node24 -- node25
+	node25 -- node26
+	node26 -- node27
+	node26 -- node28
+	node27 -- node29
+	node24 -- node29
+	node29 -- node30
+	node30 -- node31
+	node31 -- node32
+	node31 -- node33
+	node32 -- node34
+	node29 -- node34
+	node34 -- node35
+	node35 -- node36
+	node36 -- node37
+	node36 -- node38
+	node37 -- node39
+	node34 -- node39
+	node39 -- node40
+	node40 -- node41
+	node41 -- node42
+	node41 -- node43
+	node42 -- node44
+	node39 -- node44
+	node44 -- node45
+	node45 -- node46
+	node46 -- node47
+	node46 -- node48
+	node47 -- node49
+	node44 -- node49
+	node49 -- node50
+	node50 -- node51
+	node51 -- node52
+	node51 -- node53
+	node52 -- node54
+	node49 -- node54
+	node54 -- node55
+	node55 -- node56
+	node56 -- node57
+	node56 -- node58
+	node57 -- node59
+	node54 -- node59
+	node59 -- node60
+	node60 -- node61
+	node61 -- node62
+	node61 -- node63
+	node62 -- node64
+	node59 -- node64
+	node64 -- node65
+	node65 -- node66
+	node66 -- node67
+	node66 -- node68
+	node67 -- node69
+	node64 -- node69
+	node69 -- node70
+	node70 -- node71
+	node71 -- node72
+	node71 -- node73
+	node72 -- node74
+	node69 -- node74
+	node74 -- node75
+	node75 -- node76
+	node76 -- node77
+	node76 -- node78
+	node77 -- node79
+	node74 -- node79
+	node3 -- node81
+	node80 -- node82
+	node81 -- node83
+	node82 -- node83
+	node79 -- node83
+	node2 -- node83
+	node83 -- node84
+	node83 -- node85
+	node83 -- node86
+	node83 -- node87
+	node84 -- node88
+	node88 -- node89
+	node86 -- node89
+	node80 -- node90
+	node89 -- node91
+	node90 -- node91
+	node91 -- node92
+	node91 -- node93
+	node92 -- node94
+	node94 -- node95
+	node86 -- node95
+	node80 -- node96
+	node95 -- node97
+	node96 -- node97
+	node97 -- node98
+	node97 -- node99
+	node98 -- node100
+	node92 -- node100
+	node100 -- node101
+	node101 -- node102
+	node86 -- node102
+	node80 -- node103
+	node102 -- node104
+	node103 -- node104
+	node104 -- node105
+	node104 -- node106
+	node105 -- node107
+	node100 -- node107
+	node107 -- node108
+	node108 -- node109
+	node86 -- node109
+	node80 -- node110
+	node109 -- node111
+	node110 -- node111
+	node111 -- node112
+	node111 -- node113
+	node112 -- node114
+	node107 -- node114
+	node114 -- node115
+	node115 -- node116
+	node86 -- node116
+	node80 -- node117
+	node116 -- node118
+	node117 -- node118
+	node118 -- node119
+	node118 -- node120
+	node119 -- node121
+	node114 -- node121
+	node121 -- node122
+	node122 -- node123
+	node86 -- node123
+	node80 -- node124
+	node123 -- node125
+	node124 -- node125
+	node125 -- node126
+	node125 -- node127
+	node126 -- node128
+	node121 -- node128
+	node128 -- node129
+	node129 -- node130
+	node86 -- node130
+	node80 -- node131
+	node130 -- node132
+	node131 -- node132
+	node132 -- node133
+	node132 -- node134
+	node133 -- node135
+	node128 -- node135
+	node135 -- node136
+	node136 -- node137
+	node86 -- node137
+	node80 -- node138
+	node137 -- node139
+	node138 -- node139
+	node139 -- node140
+	node139 -- node141
+	node140 -- node142
+	node135 -- node142
+	node142 -- node143
+	node143 -- node144
+	node86 -- node144
+	node80 -- node145
+	node144 -- node146
+	node145 -- node146
+	node146 -- node147
+	node146 -- node148
+	node147 -- node149
+	node142 -- node149
+	node149 -- node150
+	node150 -- node151
+	node86 -- node151
+	node80 -- node152
+	node151 -- node153
+	node152 -- node153
+	node153 -- node154
+	node153 -- node155
+	node154 -- node156
+	node149 -- node156
+	node156 -- node157
+	node157 -- node158
+	node86 -- node158
+	node80 -- node159
+	node158 -- node160
+	node159 -- node160
+	node160 -- node161
+	node160 -- node162
+	node161 -- node163
+	node156 -- node163
+	node163 -- node164
+	node164 -- node165
+	node86 -- node165
+	node80 -- node166
+	node165 -- node167
+	node166 -- node167
+	node167 -- node168
+	node167 -- node169
+	node168 -- node170
+	node163 -- node170
+	node170 -- node171
+	node171 -- node172
+	node86 -- node172
+	node80 -- node173
+	node172 -- node174
+	node173 -- node174
+	node174 -- node175
+	node174 -- node176
+	node175 -- node177
+	node170 -- node177
+	node177 -- node178
+	node178 -- node179
+	node86 -- node179
+	node80 -- node180
+	node179 -- node181
+	node180 -- node181
+	node181 -- node182
+	node181 -- node183
+	node182 -- node184
+	node177 -- node184
+	node184 -- node185
+	node185 -- node186
+	node86 -- node186
+	node80 -- node187
+	node186 -- node188
+	node187 -- node188
+	node188 -- node189
+	node188 -- node190
+	node189 -- node191
+	node184 -- node191
+	node191 -- node192

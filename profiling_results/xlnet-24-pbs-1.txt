@@ -1,0 +1,134 @@
+node1 -- Input -- forward_compute_time=17.0, backward_compute_time=0.000, activation_size=4000.000, parameter_size=0.000
+node2 -- Embed-Token -- forward_compute_time=0.007, backward_compute_time=0.000, activation_size=2000000.000, parameter_size=131000000.000
+node3 -- dropout -- forward_compute_time=0.023, backward_compute_time=0.000, activation_size=4000000.000, parameter_size=0.000
+node4 -- Embed-Segment-one_hot -- forward_compute_time=0.017, backward_compute_time=0.000, activation_size=2000000.000, parameter_size=0.000
+node5 -- ATTN_MASK -- forward_compute_time=0.0, backward_compute_time=0.000, activation_size=1000000.000, parameter_size=0.000
+node6 -- Embed-Token-Dropout -- forward_compute_time=0.023, backward_compute_time=0.000, activation_size=2000000.000, parameter_size=0.000
+node7 -- Layer_0 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node8 -- Layer_1 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node9 -- Layer_2 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node10 -- Layer_3 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node11 -- Layer_4 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node12 -- Layer_5 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node13 -- Layer_6 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node14 -- Layer_7 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node15 -- Layer_8 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node16 -- Layer_9 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node17 -- Layer_10 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node18 -- Layer_11 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node19 -- Layer_12 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node20 -- Layer_13 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node21 -- Layer_14 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node22 -- Layer_15 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node23 -- Layer_16 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node24 -- Layer_17 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node25 -- Layer_18 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node26 -- Layer_19 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node27 -- Layer_20 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node28 -- Layer_21 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node29 -- Layer_22 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node30 -- Layer_23 -- forward_compute_time=3.4, backward_compute_time=4.9, activation_size=2000000.000, parameter_size=52000000.000
+node31 -- XLNET_LOSS -- forward_compute_time=0.46, backward_compute_time=1.38, activation_size=2000.000, parameter_size=0.000
+	node1 -- node2
+	node1 -- node3
+	node1 -- node4
+	node1 -- node5
+	node2 -- node3
+	node2 -- node6
+	node6 -- node7
+	node3 -- node7
+	node4 -- node7
+	node5 -- node7
+	node7 -- node8
+	node3 -- node8
+	node4 -- node8
+	node5 -- node8
+	node8 -- node9
+	node3 -- node9
+	node4 -- node9
+	node5 -- node9
+	node9 -- node10
+	node3 -- node10
+	node4 -- node10
+	node5 -- node10
+	node10 -- node11
+	node3 -- node11
+	node4 -- node11
+	node5 -- node11
+	node11 -- node12
+	node3 -- node12
+	node4 -- node12
+	node5 -- node12
+	node12 -- node13
+	node3 -- node13
+	node4 -- node13
+	node5 -- node13
+	node13 -- node14
+	node3 -- node14
+	node4 -- node14
+	node5 -- node14
+	node14 -- node15
+	node3 -- node15
+	node4 -- node15
+	node5 -- node15
+	node15 -- node16
+	node3 -- node16
+	node4 -- node16
+	node5 -- node16
+	node16 -- node17
+	node3 -- node17
+	node4 -- node17
+	node5 -- node17
+	node17 -- node18
+	node3 -- node18
+	node4 -- node18
+	node5 -- node18
+	node18 -- node19
+	node3 -- node19
+	node4 -- node19
+	node5 -- node19
+	node19 -- node20
+	node3 -- node20
+	node4 -- node20
+	node5 -- node20
+	node20 -- node21
+	node3 -- node21
+	node4 -- node21
+	node5 -- node21
+	node21 -- node22
+	node3 -- node22
+	node4 -- node22
+	node5 -- node22
+	node22 -- node23
+	node3 -- node23
+	node4 -- node23
+	node5 -- node23
+	node23 -- node24
+	node3 -- node24
+	node4 -- node24
+	node5 -- node24
+	node24 -- node25
+	node3 -- node25
+	node4 -- node25
+	node5 -- node25
+	node25 -- node26
+	node3 -- node26
+	node4 -- node26
+	node5 -- node26
+	node26 -- node27
+	node3 -- node27
+	node4 -- node27
+	node5 -- node27
+	node27 -- node28
+	node3 -- node28
+	node4 -- node28
+	node5 -- node28
+	node28 -- node29
+	node3 -- node29
+	node4 -- node29
+	node5 -- node29
+	node29 -- node30
+	node3 -- node30
+	node4 -- node30
+	node5 -- node30
+	node30 -- node31

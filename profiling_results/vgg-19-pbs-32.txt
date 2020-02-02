@@ -1,0 +1,51 @@
+node1 -- Input -- forward_compute_time=3.4, backward_compute_time=0.000, activation_size=19000000.000, parameter_size=0.000
+node2 -- Conv2d_1_1 -- forward_compute_time=3.4, backward_compute_time=6.8, activation_size=384000000.000, parameter_size=6835.000
+node3 -- Conv2d_1_2 -- forward_compute_time=7.2, backward_compute_time=14.4, activation_size=384000000.000, parameter_size=140869.000
+node4 -- MaxPool2d_1 -- forward_compute_time=0.65, backward_compute_time=1.3, activation_size=96000000.000, parameter_size=0.000
+node5 -- Conv2d_2_1 -- forward_compute_time=3.4, backward_compute_time=6.8, activation_size=192000000.000, parameter_size=281738.000
+node6 -- Conv2d_2_2 -- forward_compute_time=5.0, backward_compute_time=10.0, activation_size=192000000.000, parameter_size=562988.000
+node7 -- MaxPool2d_2 -- forward_compute_time=0.3, backward_compute_time=0.6, activation_size=48000000.000, parameter_size=0.000
+node8 -- Conv2d_3_1 -- forward_compute_time=2.3, backward_compute_time=4.6, activation_size=96000000.000, parameter_size=1125976.000
+node9 -- Conv2d_3_2 -- forward_compute_time=3.55, backward_compute_time=7.1, activation_size=96000000.000, parameter_size=2250976.000
+node10 -- Conv2d_3_3 -- forward_compute_time=3.55, backward_compute_time=7.1, activation_size=96000000.000, parameter_size=2250976.000
+node11 -- Conv2d_3_4 -- forward_compute_time=3.55, backward_compute_time=7.1, activation_size=96000000.000, parameter_size=2250976.000
+node12 -- MaxPool2d_3 -- forward_compute_time=0.165, backward_compute_time=0.33, activation_size=24000000.000, parameter_size=0.000
+node13 -- Conv2d_4_1 -- forward_compute_time=1.71, backward_compute_time=3.42, activation_size=48000000.000, parameter_size=4501953.000
+node14 -- Conv2d_4_2 -- forward_compute_time=2.9, backward_compute_time=5.8, activation_size=48000000.000, parameter_size=9001953.000
+node15 -- Conv2d_4_3 -- forward_compute_time=2.88, backward_compute_time=5.76, activation_size=48000000.000, parameter_size=9001953.000
+node16 -- Conv2d_4_4 -- forward_compute_time=2.86, backward_compute_time=5.72, activation_size=48000000.000, parameter_size=9001953.000
+node17 -- MaxPool2d_4 -- forward_compute_time=0.1, backward_compute_time=0.2, activation_size=12000000.000, parameter_size=0.000
+node18 -- Conv2d_5_1 -- forward_compute_time=0.965, backward_compute_time=1.93, activation_size=12000000.000, parameter_size=9001953.000
+node19 -- Conv2d_5_2 -- forward_compute_time=0.965, backward_compute_time=1.93, activation_size=12000000.000, parameter_size=9001953.000
+node20 -- Conv2d_5_3 -- forward_compute_time=0.96, backward_compute_time=1.92, activation_size=12000000.000, parameter_size=9001953.000
+node21 -- Conv2d_5_4 -- forward_compute_time=0.965, backward_compute_time=1.93, activation_size=12000000.000, parameter_size=9001953.000
+node22 -- MaxPool2d_5 -- forward_compute_time=0.03, backward_compute_time=0.06, activation_size=3000000.000, parameter_size=0.000
+node23 -- FC1 -- forward_compute_time=0.45, backward_compute_time=0.9, activation_size=500000.000, parameter_size=392015625.000
+node24 -- FC2 -- forward_compute_time=0.1, backward_compute_time=0.2, activation_size=500000.000, parameter_size=64015625.000
+node25 -- Prediction -- forward_compute_time=0.05, backward_compute_time=0.1, activation_size=128000.000, parameter_size=15628814.000
+node26 -- Loss -- forward_compute_time=0.01, backward_compute_time=0.2, activation_size=2000000.000, parameter_size=0.000
+	node1 -- node2
+	node2 -- node3
+	node3 -- node4
+	node4 -- node5
+	node5 -- node6
+	node6 -- node7
+	node7 -- node8
+	node8 -- node9
+	node9 -- node10
+	node10 -- node11
+	node11 -- node12
+	node12 -- node13
+	node13 -- node14
+	node14 -- node15
+	node15 -- node16
+	node16 -- node17
+	node17 -- node18
+	node18 -- node19
+	node19 -- node20
+	node20 -- node21
+	node21 -- node22
+	node22 -- node23
+	node23 -- node24
+	node24 -- node25
+	node25 -- node26

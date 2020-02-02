@@ -1,0 +1,127 @@
+node1 -- Input -- forward_compute_time=0.00, backward_compute_time=0.00, activation_size=[602112; 4004], parameter_size=0
+node2 -- stem -- forward_compute_time=0.08, backward_compute_time=0.07, activation_size=[4731264; 1577088], parameter_size=3456
+node3 -- cell_stem_0 -- forward_compute_time=0.61, backward_compute_time=1.57, activation_size=[4816896; 4816896], parameter_size=245760
+node4 -- cell_stem_1 -- forward_compute_time=0.57, backward_compute_time=1.73, activation_size=[2408448; 2408448], parameter_size=1327104
+node5 -- cell_0 -- forward_compute_time=0.97, backward_compute_time=2.38, activation_size=[6422528; 6422528], parameter_size=8388608
+node6 -- cell_1 -- forward_compute_time=1.04, backward_compute_time=2.35, activation_size=[6422528; 6422528], parameter_size=11796480
+node7 -- cell_2 -- forward_compute_time=1.11, backward_compute_time=3.04, activation_size=[6422528; 6422528], parameter_size=14417920
+node8 -- cell_3 -- forward_compute_time=1.04, backward_compute_time=2.28, activation_size=[6422528; 6422528], parameter_size=14417920
+node9 -- cell_4 -- forward_compute_time=1.08, backward_compute_time=2.61, activation_size=[6422528; 6422528], parameter_size=14417920
+node10 -- cell_5 -- forward_compute_time=1.04, backward_compute_time=2.33, activation_size=[6422528; 6422528], parameter_size=14417920
+node11 -- cell_6 -- forward_compute_time=1.11, backward_compute_time=3.04, activation_size=[6422528; 6422528], parameter_size=14417920
+node12 -- cell_7 -- forward_compute_time=1.04, backward_compute_time=2.28, activation_size=[6422528; 6422528], parameter_size=14417920
+node13 -- cell_8 -- forward_compute_time=1.08, backward_compute_time=2.61, activation_size=[6422528; 6422528], parameter_size=14417920
+node14 -- cell_9 -- forward_compute_time=1.04, backward_compute_time=2.33, activation_size=[6422528; 6422528], parameter_size=14417920
+node15 -- cell_10 -- forward_compute_time=1.11, backward_compute_time=3.04, activation_size=[6422528; 6422528], parameter_size=14417920
+node16 -- cell_11 -- forward_compute_time=1.04, backward_compute_time=2.28, activation_size=[6422528; 6422528], parameter_size=14417920
+node17 -- reduction_cell_0 -- forward_compute_time=1.16, backward_compute_time=2.51, activation_size=[2408448; 2408448], parameter_size=31195136
+node18 -- cell_12 -- forward_compute_time=0.97, backward_compute_time=2.70, activation_size=[3211264; 3211264], parameter_size=45088768
+node19 -- cell_13 -- forward_compute_time=0.95, backward_compute_time=2.66, activation_size=[3211264; 3211264], parameter_size=53477376
+node20 -- cell_14 -- forward_compute_time=0.97, backward_compute_time=3.44, activation_size=[3211264; 3211264], parameter_size=57671680
+node21 -- cell_15 -- forward_compute_time=0.99, backward_compute_time=2.50, activation_size=[3211264; 3211264], parameter_size=57671680
+node22 -- cell_16 -- forward_compute_time=0.97, backward_compute_time=2.84, activation_size=[3211264; 3211264], parameter_size=57671680
+node23 -- cell_17 -- forward_compute_time=1.00, backward_compute_time=2.91, activation_size=[3211264; 3211264], parameter_size=57671680
+node24 -- cell_18 -- forward_compute_time=0.97, backward_compute_time=3.44, activation_size=[3211264; 3211264], parameter_size=57671680
+node25 -- cell_19 -- forward_compute_time=0.99, backward_compute_time=2.50, activation_size=[3211264; 3211264], parameter_size=57671680
+node26 -- cell_20 -- forward_compute_time=0.97, backward_compute_time=2.84, activation_size=[3211264; 3211264], parameter_size=57671680
+node27 -- cell_21 -- forward_compute_time=1.00, backward_compute_time=2.91, activation_size=[3211264; 3211264], parameter_size=57671680
+node28 -- cell_22 -- forward_compute_time=0.97, backward_compute_time=3.44, activation_size=[3211264; 3211264], parameter_size=57671680
+node29 -- cell_23 -- forward_compute_time=0.99, backward_compute_time=2.50, activation_size=[3211264; 3211264], parameter_size=57671680
+node30 -- reduction_cell_1 -- forward_compute_time=1.27, backward_compute_time=3.42, activation_size=[1204224; 1204224], parameter_size=124780544
+node31 -- cell_24 -- forward_compute_time=1.24, backward_compute_time=3.63, activation_size=[1605632; 1605632], parameter_size=180355072
+node32 -- cell_25 -- forward_compute_time=1.74, backward_compute_time=3.65, activation_size=[1605632; 1605632], parameter_size=213909504
+node33 -- cell_26 -- forward_compute_time=1.66, backward_compute_time=3.18, activation_size=[1605632; 1605632], parameter_size=230686720
+node34 -- cell_27 -- forward_compute_time=1.73, backward_compute_time=4.13, activation_size=[1605632; 1605632], parameter_size=230686720
+node35 -- cell_28 -- forward_compute_time=1.60, backward_compute_time=3.62, activation_size=[1605632; 1605632], parameter_size=230686720
+node36 -- cell_29 -- forward_compute_time=2.01, backward_compute_time=4.14, activation_size=[1605632; 1605632], parameter_size=230686720
+node37 -- cell_30 -- forward_compute_time=1.66, backward_compute_time=3.18, activation_size=[1605632; 1605632], parameter_size=230686720
+node38 -- cell_31 -- forward_compute_time=1.73, backward_compute_time=4.13, activation_size=[1605632; 1605632], parameter_size=230686720
+node39 -- cell_32 -- forward_compute_time=1.60, backward_compute_time=3.62, activation_size=[1605632; 1605632], parameter_size=230686720
+node40 -- cell_33 -- forward_compute_time=2.01, backward_compute_time=4.14, activation_size=[1605632; 1605632], parameter_size=230686720
+node41 -- cell_34 -- forward_compute_time=1.66, backward_compute_time=3.18, activation_size=1605632, parameter_size=230686720
+node42 -- cell_35 -- forward_compute_time=1.73, backward_compute_time=4.13, activation_size=1605632, parameter_size=230686720
+node43 -- final_layer -- forward_compute_time=0.13, backward_compute_time=0.10, activation_size=4004, parameter_size=32804772
+node44 -- softmax_loss -- forward_compute_time=0.04, backward_compute_time=0.00, activation_size=0, parameter_size=0
+	node1 -- node2
+	node1 -- node26
+	node2 -- node3
+	node2 -- node4
+ 	node3 -- node4
+ 	node3 -- node5
+ 	node4 -- node5
+ 	node4 -- node6
+ 	node5 -- node6
+ 	node5 -- node7
+ 	node6 -- node7
+ 	node6 -- node8
+ 	node7 -- node8
+ 	node7 -- node9
+ 	node8 -- node9
+ 	node8 -- node10
+ 	node9 -- node10
+ 	node9 -- node11
+ 	node10 -- node11
+ 	node10 -- node12
+ 	node11 -- node12
+ 	node11 -- node13
+ 	node12 -- node13
+ 	node12 -- node14
+ 	node13 -- node14
+ 	node13 -- node15
+ 	node14 -- node15
+ 	node14 -- node16
+ 	node15 -- node16
+ 	node15 -- node17
+ 	node16 -- node17
+ 	node16 -- node18
+ 	node17 -- node18
+ 	node17 -- node19
+ 	node18 -- node19
+ 	node18 -- node20
+ 	node19 -- node20
+ 	node19 -- node21
+ 	node20 -- node21
+ 	node20 -- node22
+ 	node21 -- node22
+ 	node21 -- node23
+ 	node22 -- node23
+ 	node22 -- node24
+ 	node23 -- node24
+ 	node23 -- node25
+ 	node24 -- node25
+ 	node24 -- node26
+ 	node25 -- node26
+ 	node25 -- node27
+ 	node26 -- node27
+ 	node26 -- node28
+ 	node27 -- node28
+ 	node27 -- node29
+ 	node28 -- node29
+ 	node28 -- node30
+ 	node29 -- node30
+ 	node29 -- node31
+ 	node30 -- node31
+ 	node30 -- node32
+ 	node31 -- node32
+ 	node31 -- node33
+ 	node32 -- node33
+ 	node32 -- node34
+ 	node33 -- node34
+ 	node33 -- node35
+ 	node34 -- node35
+ 	node34 -- node36
+ 	node35 -- node36
+ 	node35 -- node37
+ 	node36 -- node37
+ 	node36 -- node38
+ 	node37 -- node38
+ 	node37 -- node39
+ 	node38 -- node39
+ 	node38 -- node40
+ 	node39 -- node40
+ 	node39 -- node41
+ 	node40 -- node41
+ 	node40 -- node42
+ 	node41 -- node42
+ 	node42 -- node43
+ 	node43 -- node44

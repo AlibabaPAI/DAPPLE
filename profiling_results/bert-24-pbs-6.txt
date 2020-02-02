@@ -1,0 +1,81 @@
+node1 -- input_ids -- forward_compute_time=0.01, backward_compute_time=0, activation_size=9216, parameter_size=0
+node2 -- attention_mask -- forward_compute_time=0.011, backward_compute_time=0, activation_size=3538944, parameter_size=0 
+node3 -- embeddings -- forward_compute_time=0.056, backward_compute_time=0, activation_size=12976128, parameter_size=127131648
+node4 -- reshape_input -- forward_compute_time=0, backward_compute_time=0, activation_size=12976128, parameter_size=0
+node5 -- layer_0 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node6 -- layer_1 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node7 -- layer_2 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node8 -- layer_3 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node9 -- layer_4 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node10 -- layer_5 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node11 -- layer_6 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node12 -- layer_7 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node13 -- layer_8 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node14 -- layer_9 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node15 -- layer_10 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node16 -- layer_11 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node17 -- layer_12 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node18 -- layer_13 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node19 -- layer_14 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node20 -- layer_15 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node21 -- layer_16 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node22 -- layer_17 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node23 -- layer_18 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node24 -- layer_19 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node25 -- layer_20 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node26 -- layer_21 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node27 -- layer_22 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node28 -- layer_23 -- forward_compute_time=8.07, backward_compute_time=13.4, activation_size=12976128, parameter_size=50384896
+node29 -- pooler -- forward_compute_time=0, backward_compute_time=0, activation_size=0, parameter_size=4198400
+  node1 -- node2
+  node1 -- node3
+  node3 -- node4
+  node2 -- node5
+  node4 -- node5
+  node5 -- node6
+  node2 -- node6
+  node6 -- node7
+  node2 -- node7
+  node7 -- node8
+  node2 -- node8
+  node8 -- node9
+  node2 -- node9
+  node9 -- node10
+  node2 -- node10
+  node10 -- node11
+  node2 -- node11
+  node11 -- node12
+  node2 -- node12
+  node12 -- node13
+  node2 -- node13
+  node13 -- node14
+  node2 -- node14
+  node14 -- node15
+  node2 -- node15
+  node15 -- node16
+  node2 -- node16
+  node16 -- node17
+  node2 -- node17
+  node17 -- node18
+  node2 -- node18
+  node18 -- node19
+  node2 -- node19
+  node19 -- node20
+  node2 -- node20
+  node20 -- node21
+  node2 -- node21
+  node21 -- node22
+  node2 -- node22
+  node22 -- node23
+  node2 -- node23
+  node23 -- node24
+  node2 -- node24
+  node24 -- node25
+  node2 -- node25
+  node25 -- node26
+  node2 -- node26
+  node26 -- node27
+  node2 -- node27
+  node27 -- node28
+  node2 -- node28
+  node28 -- node29
