@@ -1,0 +1,41 @@
+[package]
+name = "HPGO"
+version = "0.9.1"
+license = "Apache-2.0"
+authors = ["Yi Rong <hi@rongyi.io>"]
+description = "Hybrid Parallelism Global Orchestration"
+repository = "https://github.com/LER0ever/HPGO"
+exclude = [
+    "contrib/*"
+]
+
+[lib]
+name = "HPGO"
+path = "src/lib.rs"
+crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "HPGO-CMD"
+path = "src/main.rs"
+
+[dependencies]
+structopt = "0.3"
+itertools = "0.7.8"
+rayon = "1.3"
+ansi_term = "0.12"
+prettytable-rs = "0.8"
+ordered-float = "1.0"
+
+[dependencies.pyo3]
+version = "0.8.4"
+[features]
+extension-module = ["pyo3/extension-module"]
+default = ["extension-module"]
+
+[dev-dependencies]
+criterion = "0.3"
+quickcheck = "0.8"
+quickcheck_macros = "0.8"
+
+[package.metadata.maturin]
+requires-dist = ["graphviz~=0.13"]
