@@ -1,1 +1,0 @@
-pub const GIGABYTE: f64 = 1000000000.0;
