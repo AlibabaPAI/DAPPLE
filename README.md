@@ -34,13 +34,14 @@ maturin build --release
 pip3 install xxx.whl
 ```
 
-### Example Use
+### Example Usage of Python API
 ```python
 # Import HPGO Python API
 import HPGO
 # Construct the Conductor object
-c = conductor_from_torch_graph_and_seps("./profiling_results/xlnet-36-pbs-1.txt", 1, 128, [8, 16])
-result = c.py_orchestrate()
+# conductor_from_torch_graph_and_seps(profile_filename, profile_batch_size, global_batch_size, devices)
+conductor = HPGO.conductor_from_torch_graph_and_seps("./profiling_results/xlnet-36-pbs-1.txt", 1, 128, [8, 16])
+result = conductor.py_orchestrate()
 print(result)
 ```
 
