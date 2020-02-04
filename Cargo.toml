@@ -6,7 +6,11 @@ authors = ["Yi Rong <hi@rongyi.io>"]
 description = "Hybrid Parallelism Global Orchestration"
 repository = "https://github.com/LER0ever/HPGO"
 exclude = [
-    "contrib/*"
+    "amoeba_net/*",
+    "bert/*",
+    "gnmt/*",
+    "vgg19/*",
+    "xlnet",
 ]
 
 [lib]
