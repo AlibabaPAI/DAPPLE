@@ -1,5 +1,7 @@
 # DAPPLE: An Efficient Pipelined Data Parallel Approach for Large Models Training
 
+[![](https://img.shields.io/badge/PyPI-HPGO%200.92-blue?logo=python&style=for-the-badge)](https://pypi.org/project/HPGO/)
+
 DAPPLE is a distributed training framework which combines pipeline parallelism
 and data parallelism to address aforementioned scheduling and planning challenges with synchronous training.
 This framework features a profiler, a [planner](https://github.com/AlibabaPAI/DAPPLE/tree/master/src)
@@ -22,6 +24,8 @@ Please see the launch script `run.sh` for each model for details.
 
 ## Using the Planner
 ### Install from Python PyPI, as a Python3 package
+PyPI: [https://pypi.org/project/HPGO/](https://pypi.org/project/HPGO/)
+
 ```bash
 pip3 install HPGO
 ```
