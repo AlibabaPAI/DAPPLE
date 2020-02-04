@@ -1,6 +1,6 @@
 # DAPPLE: An Efficient Pipelined Data Parallel Approach for Large Models Training
 
-[![](https://img.shields.io/badge/PyPI-HPGO%200.92-blue?logo=python&style=for-the-badge)](https://pypi.org/project/HPGO/)
+[![](https://img.shields.io/badge/PyPI-HPGO%200.92-blue?logo=python&style=for-the-badge&logoColor=yellow)](https://pypi.org/project/HPGO/)
 
 DAPPLE is a distributed training framework which combines pipeline parallelism
 and data parallelism to address aforementioned scheduling and planning challenges with synchronous training.
@@ -52,4 +52,4 @@ print(result)
 ## License
 The DAPPLE Planner is open sourced under the terms of BSD-3-Clause, details of which can be found in the [`src/LICENSE.md`](src/LICENSE.md) file
 
-The file [`src/input/torch_graph_py.rs`](`src/input/torch_graph_py.rs`) contains Python source code from [PipeDream](https://github.com/msr-fiddle/pipedream), which is licensed under the MIT License.
+The file [`src/input/torch_graph_py.rs`](src/input/torch_graph_py.rs) contains Python source code from [PipeDream](https://github.com/msr-fiddle/pipedream), which is licensed under the MIT License.
