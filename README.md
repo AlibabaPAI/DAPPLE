@@ -20,6 +20,10 @@ This repository contains the source code implementation of DAPPLE's planning res
 and [XLNET](https://github.com/AlibabaPAI/DAPPLE/tree/master/xlnet).
 
 ## Running the DAPPLE experiments
+### DAPPLE Planner
+All the planner-related experiments can be reproduced on any machine, regardless of the environment. We've provided a detailed how-to in [`PLANNER_REPRODUCTION.md`](PLANNER_REPRODUCTION.md).
+
+### DAPPLE Runtime
 Please see the launch script `run.sh` for each model for details.
 
 ## Using the Planner
